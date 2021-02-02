@@ -60,23 +60,16 @@
 
 - for / while vs. functional approach
 - when to use which (range 1..10 -> for, otherwise forEach / map to iterate over elements)
-  ​
 
 ## Functions
 
-​
-
 ### Classic functions
-
-​
 
 ```javascript
 export function printSum(a, b) {
   return `The sum of ${a} and ${b} is ${a + b}`;
 }
 ```
-
-​
 
 ### Arrow functions
 
