@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background: #17141d;
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+  padding: 3rem;
+  color: #efefef;
+}
+
+.card {
+  background: #17141d;
+  box-shadow: -1rem 0 3rem #000;
+  padding: 2rem;
+  border-radius: 4px;
+}
