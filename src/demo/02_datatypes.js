@@ -31,7 +31,7 @@ console.log(Number(stringNumber) + 7);
 console.log(parseFloat(stringNumber) + 7);
 // Show difference between Number() and parseFloat() by adding px to the stringNumber
 
-//Booleans
+// Booleans
 let isMagician = false;
 isMagician = true;
 
