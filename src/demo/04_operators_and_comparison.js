@@ -1,4 +1,4 @@
-// Operators
+// Number Operators
 let number = 1;
 
 console.log(number++); // prints 1 and increments afterwards
