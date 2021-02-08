@@ -45,5 +45,3 @@ const hogwartsStudents = [
 // 4. Create a button, on a click only gryffindor students should appear
 
 // After you are done with this we should clean up the code a bit!
-// Here is a link to a cleaned up version of this pen:
-// https://codepen.io/macfrei/pen/GRNoKNG
