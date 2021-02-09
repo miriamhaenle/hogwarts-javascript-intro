@@ -1,4 +1,5 @@
 // More exercices about array methods
+
 const hogwartsStudents = [
   {
     name: 'Harry',
@@ -43,3 +44,5 @@ const hogwartsStudents = [
 // 4. Create a button, on a click only gryffindor students should appear
 
 // After you are done with this we should clean up the code a bit!
+
+console.log(hogwartsStudents);
