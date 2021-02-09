@@ -71,7 +71,7 @@ sortButton.addEventListener('click', () => sortStudentCards(hogwartsStudents));
 function sortStudentCards(students) {
   const sortedStudents = sortStudents(students);
   const sortedStudentCards = createStudentCards(sortedStudents);
-  setContent(sortedStudentCards, cardContainer());
+  setContent(sortedStudentCards, getCardContainer());
 }
 
 function sortStudents(students) {
@@ -85,7 +85,7 @@ const filterButton = createButton('Filter!');
 
 filterButton.addEventListener('click', () => {
   const filteredStudentCards = filterStudentCards(hogwartsStudents);
-  setContent(filteredStudentCards, cardContainer());
+  setContent(filteredStudentCards, getCardContainer());
 });
 
 function setContent(elements, container = document.body) {
@@ -113,7 +113,7 @@ function createButton(text = 'Button') {
   return button;
 }
 
-function cardContainer() {
+function getCardContainer() {
   return document.querySelector('.card-container');
 }
 
@@ -124,7 +124,7 @@ document.body.append(randomButton);
 randomButton.addEventListener('click', () => {
   const randomizedStudents = randomizeStudentOrder(hogwartsStudents);
   const randomizedStudentCards = createStudentCards(randomizedStudents);
-  setContent(randomizedStudentCards, cardContainer());
+  setContent(randomizedStudentCards, getCardContainer());
 });
 
 // See the following link for explanation about randomizer function for arrays: https://medium.com/@nitinpatel_20236/how-to-shuffle-correctly-shuffle-an-array-in-javascript-15ea3f84bfb
