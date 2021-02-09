@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  background: rebeccapurple;
+  color: wheat;
+  padding: 0.4rem 1rem;
+  border: none;
+}
