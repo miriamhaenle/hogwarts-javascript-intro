@@ -1,36 +1,34 @@
 // More exercices about array methods
-console.clear();
-
 const hogwartsStudents = [
   {
     name: 'Harry',
     lastName: 'Potter',
-    house: { name: 'Gryffindor', color: 'red' },
+    house: { name: 'Gryffindor', color: '#AE0001' },
   },
   {
     name: 'Ron',
     lastName: 'Weasley',
-    house: { name: 'Gryffindor', color: 'red' },
+    house: { name: 'Gryffindor', color: '#AE0001' },
   },
   {
     name: 'Hermione',
     lastName: 'Granger',
-    house: { name: 'Gryffindor', color: 'red' },
+    house: { name: 'Gryffindor', color: '#AE0001' },
   },
   {
     name: 'Draco',
     lastName: 'Malfoy',
-    house: { name: 'Slytherin', color: 'green' },
+    house: { name: 'Slytherin', color: '#2A623D' },
   },
   {
     name: 'Cedric',
     lastName: 'Diggory',
-    house: { name: 'Hufflepuff', color: 'yellow' },
+    house: { name: 'Hufflepuff', color: '#FFDB00' },
   },
   {
     name: 'Luna',
     lastName: 'Lovegood',
-    house: { name: 'Ravenclaw', color: 'blue' },
+    house: { name: 'Ravenclaw', color: '#222F5B' },
   },
 ];
 
