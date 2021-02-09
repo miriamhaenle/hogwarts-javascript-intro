@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  display: grid;
+  gap: 40px;
+}
+
+button {
+  width: 350px;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-auto-rows: 200px;
+}
+
+.card {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  background: #ccc;
+  border-radius: 15%;
+}
