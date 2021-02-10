@@ -18,7 +18,7 @@ There are two branches that hold information:
 - `demo`is the branch for demos and it also contains the exercises
 - `solution` holds the solutions for the exercises and demos
 - You can switch between the branches by using `git switch name-of-branch` or `git checkout name-of-branch`
--
+- If you want to work on exercises and keep your local changes, please always make a new branch to work on these exercises. We constantly update the demo and solution branch. Otherwise your local changes could be overwritten by a new pull.
 
 ## Variables and Data types
 
