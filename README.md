@@ -1,3 +1,25 @@
+# Hogwarts JavaScript School
+
+Welcome to Hogwarts JavaScript school! This is a magical place to learn all about JavaScript.
+
+## How to use this projcet?
+
+This project is a collection of demos and exercises to experience JavaScript and help in understanding its underlying concepts.
+
+To start working with this project you
+
+1. have to clone it `git clone git@github.com:miriamhaenle/hogwarts-javascript-intro.git`
+2. Run `npm install` to install the necessary dependencies.
+3. Run `npm start`to run the project
+
+Beware of a few facts:
+There are two branches that hold information:
+
+- `demo`is the branch for demos and it also contains the exercises
+- `solution` holds the solutions for the exercises and demos
+- You can switch between the branches by using `git switch name-of-branch` or `git checkout name-of-branch`
+-
+
 ## Variables and Data types
 
 ### 1. Variables
