@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}
+
+input {
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  padding: 8px;
+  box-shadow: inset 1px 2px 2px #0002;
+  background: linear-gradient(#eee, #fff);
+}
+button {
+  background: rebeccapurple;
+  color: wheat;
+  padding: 0.4rem 1rem;
+  border: none;
+}
