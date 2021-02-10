@@ -22,8 +22,12 @@ function addItemToList(item) {
 
 function renderList(text) {
   const li = document.createElement('li');
+  const input = document.createElement('INPUT');
+  input.setAttribute('type', 'checkbox');
   li.textContent = text;
   list.appendChild(li);
+  li.style.listStyle = 'none';
+  li.prepend(input);
 }
 
 function saveToLocal(key, value) {
