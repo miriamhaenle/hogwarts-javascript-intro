@@ -3,14 +3,14 @@ const inputField = document.querySelector('input');
 const button = document.querySelector('button');
 const list = document.querySelector('ul');
 
-let shoppinglist = loadFromLocal('Wizarding equipment') || [];
+let shoppinglist = loadFromLocal('WizardingEquipment') || [];
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
 
   addItemToList(inputField.value);
   renderList(inputField.value);
-  saveToLocal('Wizarding equipment', shoppinglist);
+  saveToLocal('WizardingEquipment', shoppinglist);
   form.reset();
 });
 
