@@ -31,5 +31,9 @@ function saveToLocal(key, value) {
 }
 
 function loadFromLocal(key) {
-  return JSON.parse(localStorage.getItem(key));
+  try {
+    return JSON.parse(localStorage.getItem(key));
+  } catch (error) {
+    console.error(error);
+  }
 }
