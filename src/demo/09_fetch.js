@@ -35,7 +35,7 @@ function drawCharacterCards(characters) {
 // Fetch SCA
 
 function postJournalEntries(journalEntry) {
-  fetch('https://muc-2020-w1-student-api.vercel.app/api/journals', {
+  return fetch('https://muc-2020-w1-student-api.vercel.app/api/journals', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(journalEntry),
